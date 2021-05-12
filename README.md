@@ -2,6 +2,18 @@
 
 In this repository you can find the code for classification of the common activities of electrical line workers. We recruited 37 subjects to perform the 10 tasks listed below and collected the acceleration signals from a signle wrist-worn Empatica E4 accelerometer.
 
+
+
+
+
+![Alt Text](./mtls/workflow.gif)
+
+
+
+
+
+
+
 1. Sitting on a chair while keeping hands still on the chair arms for 3 minutes
 2. Standing still for 3 minutes
 3. Walking on a set path for 3 minutes

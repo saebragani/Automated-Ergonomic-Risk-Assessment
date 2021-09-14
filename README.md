@@ -20,9 +20,11 @@ The activities in this data set include:
 10. Inserting screws using a screw driver at an overhead height for 3 minute
 
 
-The one-time classifier training is performed and the trained model is saved in [trained_model/tf_model](trained_model/tf_model).
+The one-time classifier training is performed and the trained model is saved in [trained_model/tf_model](trained_model/tf_model). For the activity recognition Continuous Wavelet Transform (CWT) features are used to train a CNN model.
 
-The segmentation is performed using the GGS algorithm [[1]](#1)
+The segmentation is performed using the Greedy Gaussian Segmentation (GGS) algorithm [[1]](#1).
+
+For the repetition counting, scalogram of the signals are constructed within each segment. By thresholding, the scalograms are binarized in order to detect contours which represent task/sub-task cycles.
 
 
 # References

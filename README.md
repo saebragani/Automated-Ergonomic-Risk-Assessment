@@ -8,11 +8,11 @@ In this repository you can find the codes for the end-to-end framework for ergon
 
 The activities in this data set include:
 
-1. Sitting on a chair while keeping hands still on the chair arms for 3 minutes
-2. Standing still for 3 minutes
-3. Walking on a set path for 3 minutes
-4. Hoisting a weighted bucket up and down to a height of 4 m for 10 repetitions
-5. Lifting and lowering a weighted box for 20 repetitions
+> 1. Sitting on a chair while keeping hands still on the chair arms for 3 minutes
+> 2. Standing still for 3 minutes
+> 3. Walking on a set path for 3 minutes
+> 4. Hoisting a weighted bucket up and down to a height of 4 m for 10 repetitions
+> 5. Lifting and lowering a weighted box for 20 repetitions
 6. Pushing a cart on a set path for 10 repetitions
 7. Typing on a computer for 3 minutes
 8. Climbing up and down a ladder for 20 repetitions

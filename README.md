@@ -21,17 +21,5 @@ The activities in this data set include:
 10. Inserting screws using a screw driver at an overhead height for 3 minute
 
 
-The one-time classifier training is performed and the trained model is saved in [trained_model\tf_model](trained_model\tf_model).
+The one-time classifier training is performed and the trained model is saved in [trained_model/tf_model](trained_model/tf_model).
 
-The following pictu<!-- re shows a sample subject and the experiment area.
-
-<img src="./images/wrist.png" alt="subject" width="400"/>
-
-## Classification
-We investigated the performance of ```k-Nearest Neighbors```, ```Support Vector Machines```, and ```Random Forest``` classifiers in combination with three feature sets (```time```, ```frequency```, and ```time-frequency```), and  two window lengths (4 and 10 seconds) for the classification. Also, we evaluated the classification performance in two scenarios of intra- and inter-subject. You can find the classification code in [Classification.ipynb](Classification.ipynb) notebook.
-
-## Report
-The classification models for all combinations of classifier, feature set, and window length were trained and saved to a pickle file. For inter-subject this resulted in 18 files, however for the intra-subject scenario since we trained the models on individual subjects the number of saved files summed up to 666. In [evaluate_performance.ipynb](evaluate_performance.ipynb) notebook we load the files and create the reports.
-
-## LIME
-Using the LIME algorithm [[1]](#1) we found the important features for 2 activities of electric panel and hoisting in frequency and time-frequency feature sets. We reconstructed the signals using the selected features to investigate the relevance of the selected features. We applied the method on 30 correctly classified windows for the electric panel and hoisting tasks and used the most frequently selected features for reconstruction. The codes for the frequency and time-frequency features are provided in [LIME_FFT.ipynb](LIME_FFT.ipynb) and [LIME_Wavelet.ipynb](LIME_Wavelet.ipynb) notebooks.

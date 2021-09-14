@@ -1,0 +1,4 @@
+,electricPanel,hoist,ladder,lift,overhead,push,sit,stand,type,walk,accuracy
+precision,1.0,1.0,0.95,1.0,1.0,1.0,0.67,1.0,1.0,1.0,0.95
+recall,0.94,1.0,1.0,0.96,1.0,1.0,1.0,1.0,0.5,1.0,0.95
+f1-score,0.97,1.0,0.98,0.98,1.0,1.0,0.8,1.0,0.67,1.0,0.95

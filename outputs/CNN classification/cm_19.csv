@@ -1,0 +1,11 @@
+,electricPanel,hoist,ladder,lift,overhead,push,sit,stand,type,walk
+electricPanel,18,0,0,0,0,0,0,0,0,0
+hoist,0,19,0,0,0,0,0,0,0,0
+ladder,0,0,21,3,0,0,0,0,0,0
+lift,0,0,0,20,0,0,0,0,0,0
+overhead,0,0,0,0,18,0,0,0,0,0
+push,0,0,0,0,0,16,0,0,0,0
+sit,0,0,0,0,0,0,17,0,1,0
+stand,0,0,0,0,0,0,0,18,0,0
+type,0,0,0,0,0,0,0,0,18,0
+walk,0,0,0,0,0,0,0,0,0,18

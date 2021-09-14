@@ -6,7 +6,7 @@ In this repository you can find the code for classification of the common activi
 
 
 
-![Alt Text](./mtls/workflow.gif)
+![Alt Text](./readme-mtls/workflow.gif)
 
 
 

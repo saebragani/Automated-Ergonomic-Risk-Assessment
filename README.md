@@ -3,7 +3,6 @@
 In this repository you can find the codes for the end-to-end framework for ergonomic risk assessment for electric line workers using acceleration signals from a wrist-worn accelerometer. The framework steps include segmentation, activity classification, and activity repetition counting. A animation of the steps is presented below.
 
 
-
 ![Alt Text](./readme-mtls/workflow.gif)
 
 
@@ -22,4 +21,10 @@ The activities in this data set include:
 
 
 The one-time classifier training is performed and the trained model is saved in [trained_model/tf_model](trained_model/tf_model).
+
+The segmentation is performed using the GGS algorithm [[1]](#1)
+
+
+# References
+<a id="1">[1]</a> Hallac, David, Peter Nystrup, and Stephen Boyd. "Greedy Gaussian segmentation of multivariate time series." Advances in Data Analysis and Classification 13.3 (2019): 727-751.
 

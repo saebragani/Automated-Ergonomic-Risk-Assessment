@@ -22,7 +22,7 @@ The activities in this data set include:
 
 The one-time classifier training is performed and the trained model is saved in [trained_model/tf_model](trained_model/tf_model). For the activity recognition Continuous Wavelet Transform (CWT) features are used to train a CNN model.
 
-The segmentation step is performed using the Greedy Gaussian Segmentation (GGS) algorithm [[1]](#1) in the [Segmentation.py](Segmentation.py) file and the output is stored in [trained_model/GGS_segments.pickle](trained_model/GGS_segments.pickle).
+The segmentation step is performed using the Greedy Gaussian Segmentation (GGS) algorithm [[1]](#1) in [Segmentation.py](Segmentation.py) and the output is stored in [trained_model/GGS_segments.pickle](trained_model).
 
 For the repetition counting, scalogram of the signals are constructed within each segment. By thresholding, the scalograms are binarized in order to detect contours which represent task/sub-task cycles.
 

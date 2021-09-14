@@ -1,18 +1,13 @@
-# Activity-Recognition
+# End-to-End Framework for Ergonomic Risk Assessment for Electric Line Workers
 
-In this repository you can find the code for classification of the common activities of electrical line workers. We recruited 37 subjects to perform the 10 tasks listed below and collected the acceleration signals from a signle wrist-worn Empatica E4 accelerometer.
-
-
+In this repository you can find the codes for the end-to-end framework for ergonomic risk assessment for electric line workers using acceleration signals from a wrist-worn accelerometer. The framework steps include segmentation, activity classification, and activity repetition counting. A animation of the steps is presented below.
 
 
 
 ![Alt Text](./readme-mtls/workflow.gif)
 
 
-
-
-
-
+The activities in this data set include:
 
 1. Sitting on a chair while keeping hands still on the chair arms for 3 minutes
 2. Standing still for 3 minutes
@@ -25,7 +20,10 @@ In this repository you can find the code for classification of the common activi
 9. Working on an electrical panel for 3 minutes
 10. Inserting screws using a screw driver at an overhead height for 3 minute
 
-The following picture shows a sample subject and the experiment area.
+
+The one-time classifier training is performed and the trained model is saved in [trained_model\tf_model](trained_model\tf_model).
+
+The following pictu<!-- re shows a sample subject and the experiment area.
 
 <img src="./images/wrist.png" alt="subject" width="400"/>
 
@@ -37,6 +35,3 @@ The classification models for all combinations of classifier, feature set, and w
 
 ## LIME
 Using the LIME algorithm [[1]](#1) we found the important features for 2 activities of electric panel and hoisting in frequency and time-frequency feature sets. We reconstructed the signals using the selected features to investigate the relevance of the selected features. We applied the method on 30 correctly classified windows for the electric panel and hoisting tasks and used the most frequently selected features for reconstruction. The codes for the frequency and time-frequency features are provided in [LIME_FFT.ipynb](LIME_FFT.ipynb) and [LIME_Wavelet.ipynb](LIME_Wavelet.ipynb) notebooks.
-
-# References
-<a id="1">[1]</a> Ribeiro, Marco Tulio, Sameer Singh, and Carlos Guestrin. "" Why should i trust you?" Explaining the predictions of any classifier." Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining. 2016.

@@ -13,11 +13,11 @@ The activities in this data set include:
 > 3. Walking on a set path for 3 minutes
 > 4. Hoisting a weighted bucket up and down to a height of 4 m for 10 repetitions
 > 5. Lifting and lowering a weighted box for 20 repetitions
-6. Pushing a cart on a set path for 10 repetitions
-7. Typing on a computer for 3 minutes
-8. Climbing up and down a ladder for 20 repetitions
-9. Working on an electrical panel for 3 minutes
-10. Inserting screws using a screw driver at an overhead height for 3 minute
+> 6. Pushing a cart on a set path for 10 repetitions
+> 7. Typing on a computer for 3 minutes
+> 8. Climbing up and down a ladder for 20 repetitions
+> 9. Working on an electrical panel for 3 minutes
+> 10. Inserting screws using a screw driver at an overhead height for 3 minute
 
 
 The one-time classifier training is performed in the [RetrospectiveTraining.py](RetrospectiveTraining.py) and the trained model is stored under [trained_model/tf_model](trained_model/tf_model). For the activity recognition Continuous Wavelet Transform (CWT) features are used to train a CNN model.
